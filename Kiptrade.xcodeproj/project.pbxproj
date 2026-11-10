@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {
+    };
+    objectVersion = 56;
+    objects = {
+
+/* Begin PBXBuildFile section */
+        245E5596255D4D7BBCFE73F6 /* NotificacionesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5D84EF835144A689BCB252 /* NotificacionesView.swift */; };
+        DA7ACEDB07BF4C04B4901A48 /* ImportarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E503FE3B9454F0B9371C48A /* ImportarView.swift */; };
+        A7008FCD080C41E2B17F3634 /* AjustesSecciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = A420037A2EE94563B8FB6B14 /* AjustesSecciones.swift */; };
+        D339DB1453A44D13AB191C8D /* AjustesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68143529DDAE48168042E27E /* AjustesView.swift */; };
+        ACD67B4FF0784327BB5600CE /* PlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF8D8C33FE8408DAE036D39 /* PlanView.swift */; };
+        DB314182BEBB424F870EE757 /* CoachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9A40CFE6BD42C4AF6861F5 /* CoachView.swift */; };
+        64F88D821EA5416E9E7E6D9E /* DetalleTradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E096B92D71454AF5A6AE9E79 /* DetalleTradeView.swift */; };
+        2F7C6E81AE0842D286E2BC36 /* EstadisticasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D130EBBE711A42D5BE0CA01C /* EstadisticasView.swift */; };
+        FF046CBE785C48C383C57F33 /* DiarioSecciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA63CECCF2E34DDBB4DC34C0 /* DiarioSecciones.swift */; };
+        68BACE5C72DD470496A7FF9D /* FiltrosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF1BD5A8CEC47239049DCC2 /* FiltrosView.swift */; };
+        F6D4EA6BE294459386BBE75F /* DiarioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414F38BB2DF4DC2A3383A6F /* DiarioView.swift */; };
+        5F5F85D0CF70428D9D7D9F76 /* PanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2E681CE22345DEB61FBA00 /* PanelView.swift */; };
+        0005B915AB514772B7E361BB /* AccesoViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F8694B05DF4851870D2CF3 /* AccesoViews.swift */; };
+        E3E5483D6242412794FEF509 /* Grabadora.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2290C55135489B93071ACC /* Grabadora.swift */; };
+        A0531FC88EFB462294678DC9 /* Componentes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B534A782D38D47A8A7C2745B /* Componentes.swift */; };
+        9FCABDBC5CFE4BF88FF68233 /* Modelos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2455CB391F6E443BBB88145E /* Modelos.swift */; };
+        25DD950CFFF74A2688C374DA /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = F296B736F0E84491B8B84C2C /* Api.swift */; };
+        06FB1E78AD764DA2960C14AA /* Sesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72708DD18CD043C4A5942EDF /* Sesion.swift */; };
+        C885A38A8CB846BAB93BDCBD /* KiptradeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A81AA0A78D4368B21E33A5 /* KiptradeApp.swift */; };
+        E875782429A64577BAAF4C70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA697413DCD14E7C94391E1F /* ContentView.swift */; };
+        041E5537500B47AAA100F602 /* KipColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980B65653D05455388F9982A /* KipColors.swift */; };
+        E35E2E5ABB604D899F1AD743 /* KipFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2B5BF3D2B444418DB8FBF6 /* KipFonts.swift */; };
+        4407A0EBFC1E41D098DCC1BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02D91B4798604131B39EFE4E /* Assets.xcassets */; };
+        83F42C7B82A946FAB1E80B1E /* manrope_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 23A43C0E9A6A482E88EE6165 /* manrope_regular.ttf */; };
+        7279F8B2F5674149AB53D993 /* manrope_semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3244673F6BB4AD28737EEB0 /* manrope_semibold.ttf */; };
+        4164E29AB45747DA9D7CD954 /* manrope_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C010FE99BCE1471889BD6F71 /* manrope_bold.ttf */; };
+        86D9D66DC2D54316A9EDA611 /* manrope_extrabold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F4FC0339AF04E4EAA4A18C4 /* manrope_extrabold.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+        8B5D84EF835144A689BCB252 /* NotificacionesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificacionesView.swift; sourceTree = "<group>"; };
+        6E503FE3B9454F0B9371C48A /* ImportarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportarView.swift; sourceTree = "<group>"; };
+        A420037A2EE94563B8FB6B14 /* AjustesSecciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjustesSecciones.swift; sourceTree = "<group>"; };
+        68143529DDAE48168042E27E /* AjustesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjustesView.swift; sourceTree = "<group>"; };
+        0FF8D8C33FE8408DAE036D39 /* PlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanView.swift; sourceTree = "<group>"; };
+        8B9A40CFE6BD42C4AF6861F5 /* CoachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachView.swift; sourceTree = "<group>"; };
+        E096B92D71454AF5A6AE9E79 /* DetalleTradeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleTradeView.swift; sourceTree = "<group>"; };
+        D130EBBE711A42D5BE0CA01C /* EstadisticasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstadisticasView.swift; sourceTree = "<group>"; };
+        BA63CECCF2E34DDBB4DC34C0 /* DiarioSecciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiarioSecciones.swift; sourceTree = "<group>"; };
+        9BF1BD5A8CEC47239049DCC2 /* FiltrosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltrosView.swift; sourceTree = "<group>"; };
+        8414F38BB2DF4DC2A3383A6F /* DiarioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiarioView.swift; sourceTree = "<group>"; };
+        7F2E681CE22345DEB61FBA00 /* PanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelView.swift; sourceTree = "<group>"; };
+        F5F8694B05DF4851870D2CF3 /* AccesoViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccesoViews.swift; sourceTree = "<group>"; };
+        AF2290C55135489B93071ACC /* Grabadora.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grabadora.swift; sourceTree = "<group>"; };
+        B534A782D38D47A8A7C2745B /* Componentes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Componentes.swift; sourceTree = "<group>"; };
+        2455CB391F6E443BBB88145E /* Modelos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modelos.swift; sourceTree = "<group>"; };
+        F296B736F0E84491B8B84C2C /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+        72708DD18CD043C4A5942EDF /* Sesion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sesion.swift; sourceTree = "<group>"; };
+        399A5E31291542FAB87086F9 /* Kiptrade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kiptrade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+        F4A81AA0A78D4368B21E33A5 /* KiptradeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiptradeApp.swift; sourceTree = "<group>"; };
+        FA697413DCD14E7C94391E1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+        980B65653D05455388F9982A /* KipColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KipColors.swift; sourceTree = "<group>"; };
+        7C2B5BF3D2B444418DB8FBF6 /* KipFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KipFonts.swift; sourceTree = "<group>"; };
+        CF06820522884B9EB1C3235F /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Content"; sourceTree = "<group>"; };
+        0231C4B4C0A744FFAFFB657C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+        02D91B4798604131B39EFE4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+        23A43C0E9A6A482E88EE6165 /* manrope_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = manrope_regular.ttf; sourceTree = "<group>"; };
+        E3244673F6BB4AD28737EEB0 /* manrope_semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = manrope_semibold.ttf; sourceTree = "<group>"; };
+        C010FE99BCE1471889BD6F71 /* manrope_bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = manrope_bold.ttf; sourceTree = "<group>"; };
+        6F4FC0339AF04E4EAA4A18C4 /* manrope_extrabold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = manrope_extrabold.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+        DFB916D0803D4B10992EE5E0 /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+        1AA1A690260F4508A9A0CCCE = {
+            isa = PBXGroup;
+            children = (
+                D54E53385D064D7794F8D1E6 /* Kiptrade */,
+                A15ED09808DE44B787F4890B /* Products */,
+            );
+            sourceTree = "<group>";
+        };
+        A15ED09808DE44B787F4890B /* Products */ = {
+            isa = PBXGroup;
+            children = (
+                BDE542934BAA41DA9EE6BC71 /* Kiptrade.app */,
+            );
+            name = Products;
+            sourceTree = "<group>";
+        };
+        D54E53385D064D7794F8D1E6 /* Kiptrade */ = {
+            isa = PBXGroup;
+            children = (
+                F4A81AA0A78D4368B21E33A5 /* KiptradeApp.swift */,
+                FA697413DCD14E7C94391E1F /* ContentView.swift */,
+                8B5D84EF835144A689BCB252 /* NotificacionesView.swift */,
+                6E503FE3B9454F0B9371C48A /* ImportarView.swift */,
+                A420037A2EE94563B8FB6B14 /* AjustesSecciones.swift */,
+                68143529DDAE48168042E27E /* AjustesView.swift */,
+                0FF8D8C33FE8408DAE036D39 /* PlanView.swift */,
+                8B9A40CFE6BD42C4AF6861F5 /* CoachView.swift */,
+                E096B92D71454AF5A6AE9E79 /* DetalleTradeView.swift */,
+                D130EBBE711A42D5BE0CA01C /* EstadisticasView.swift */,
+                BA63CECCF2E34DDBB4DC34C0 /* DiarioSecciones.swift */,
+                9BF1BD5A8CEC47239049DCC2 /* FiltrosView.swift */,
+                8414F38BB2DF4DC2A3383A6F /* DiarioView.swift */,
+                7F2E681CE22345DEB61FBA00 /* PanelView.swift */,
+                F5F8694B05DF4851870D2CF3 /* AccesoViews.swift */,
+                AF2290C55135489B93071ACC /* Grabadora.swift */,
+                B534A782D38D47A8A7C2745B /* Componentes.swift */,
+                2455CB391F6E443BBB88145E /* Modelos.swift */,
+                F296B736F0E84491B8B84C2C /* Api.swift */,
+                72708DD18CD043C4A5942EDF /* Sesion.swift */,
+                980B65653D05455388F9982A /* KipColors.swift */,
+                7C2B5BF3D2B444418DB8FBF6 /* KipFonts.swift */,
+                02D91B4798604131B39EFE4E /* Assets.xcassets */,
+                0231C4B4C0A744FFAFFB657C /* Info.plist */,
+                CF06820522884B9EB1C3235F /* Preview Content */,
+                            B0A07B2FE20542C6BB9365D3 /* Fonts */,
+            );
+            path = Kiptrade;
+            sourceTree = "<group>";
+        };
+        B0A07B2FE20542C6BB9365D3 /* Fonts */ = {
+            isa = PBXGroup;
+            children = (
+                23A43C0E9A6A482E88EE6165 /* manrope_regular.ttf */,
+                E3244673F6BB4AD28737EEB0 /* manrope_semibold.ttf */,
+                C010FE99BCE1471889BD6F71 /* manrope_bold.ttf */,
+                6F4FC0339AF04E4EAA4A18C4 /* manrope_extrabold.ttf */,
+            );
+            path = Fonts;
+            sourceTree = "<group>";
+        };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+        65D9E553E70E4DDAADCD4F56 /* Kiptrade */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = 95B62ED060784736A4240123 /* Build configuration list for PBXNativeTarget "Kiptrade" */;
+            buildPhases = (
+                7ED1FB8A23624FDD94E5E7DC /* Sources */,
+                DFB916D0803D4B10992EE5E0 /* Frameworks */,
+                7AD2EFD105E64112B28BF398 /* Resources */,
+            );
+            buildRules = (
+            );
+            dependencies = (
+            );
+            name = Kiptrade;
+            productName = Kiptrade;
+            productReference = BDE542934BAA41DA9EE6BC71 /* Kiptrade.app */;
+            productType = "com.apple.product-type.application";
+        };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+        DDF3E0DA5D314302B175020E /* Project object */ = {
+            isa = PBXProject;
+            attributes = {
+                BuildIndependentTargetsInParallel = 1;
+                LastSwiftUpdateCheck = 1520;
+                LastUpgradeCheck = 1520;
+                TargetAttributes = {
+                    65D9E553E70E4DDAADCD4F56 = {
+                        CreatedOnToolsVersion = 15.2;
+                    };
+                };
+            };
+            buildConfigurationList = DD3867F7B3074F8BBB220611 /* Build configuration list for PBXProject "Kiptrade" */;
+            compatibilityVersion = "Xcode 14.0";
+            developmentRegion = en;
+            hasScannedForEncodings = 0;
+            knownRegions = (
+                en,
+                Base,
+            );
+            mainGroup = 1AA1A690260F4508A9A0CCCE;
+            productRefGroup = A15ED09808DE44B787F4890B /* Products */;
+            projectDirPath = "";
+            projectRoot = "";
+            targets = (
+                65D9E553E70E4DDAADCD4F56 /* Kiptrade */,
+            );
+        };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+        7AD2EFD105E64112B28BF398 /* Resources */ = {
+            isa = PBXResourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                4407A0EBFC1E41D098DCC1BF /* Assets.xcassets in Resources */,
+                            83F42C7B82A946FAB1E80B1E /* manrope_regular.ttf in Resources */,
+                7279F8B2F5674149AB53D993 /* manrope_semibold.ttf in Resources */,
+                4164E29AB45747DA9D7CD954 /* manrope_bold.ttf in Resources */,
+                86D9D66DC2D54316A9EDA611 /* manrope_extrabold.ttf in Resources */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+        7ED1FB8A23624FDD94E5E7DC /* Sources */ = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                C885A38A8CB846BAB93BDCBD /* KiptradeApp.swift in Sources */,
+                E875782429A64577BAAF4C70 /* ContentView.swift in Sources */,
+
+                245E5596255D4D7BBCFE73F6 /* NotificacionesView.swift in Sources */,
+
+                DA7ACEDB07BF4C04B4901A48 /* ImportarView.swift in Sources */,
+
+                A7008FCD080C41E2B17F3634 /* AjustesSecciones.swift in Sources */,
+
+                D339DB1453A44D13AB191C8D /* AjustesView.swift in Sources */,
+
+                ACD67B4FF0784327BB5600CE /* PlanView.swift in Sources */,
+
+                DB314182BEBB424F870EE757 /* CoachView.swift in Sources */,
+
+                64F88D821EA5416E9E7E6D9E /* DetalleTradeView.swift in Sources */,
+
+                2F7C6E81AE0842D286E2BC36 /* EstadisticasView.swift in Sources */,
+
+                FF046CBE785C48C383C57F33 /* DiarioSecciones.swift in Sources */,
+
+                68BACE5C72DD470496A7FF9D /* FiltrosView.swift in Sources */,
+
+                F6D4EA6BE294459386BBE75F /* DiarioView.swift in Sources */,
+
+                5F5F85D0CF70428D9D7D9F76 /* PanelView.swift in Sources */,
+
+                0005B915AB514772B7E361BB /* AccesoViews.swift in Sources */,
+
+                E3E5483D6242412794FEF509 /* Grabadora.swift in Sources */,
+
+                A0531FC88EFB462294678DC9 /* Componentes.swift in Sources */,
+
+                9FCABDBC5CFE4BF88FF68233 /* Modelos.swift in Sources */,
+
+                25DD950CFFF74A2688C374DA /* Api.swift in Sources */,
+
+                06FB1E78AD764DA2960C14AA /* Sesion.swift in Sources */,
+                041E5537500B47AAA100F602 /* KipColors.swift in Sources */,
+                E35E2E5ABB604D899F1AD743 /* KipFonts.swift in Sources */,
+                        );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+        3A28E2A1A38C4D8989C3D2A7 /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+                CLANG_ANALYZER_NONNULL = YES;
+                CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+                CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+                CLANG_ENABLE_MODULES = YES;
+                CLANG_ENABLE_OBJC_ARC = YES;
+                CLANG_ENABLE_OBJC_WEAK = YES;
+                CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+                CLANG_WARN_BOOL_CONVERSION = YES;
+                CLANG_WARN_COMMA = YES;
+                CLANG_WARN_CONSTANT_CONVERSION = YES;
+                CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+                CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+                CLANG_WARN_EMPTY_BODY = YES;
+                CLANG_WARN_ENUM_CONVERSION = YES;
+                CLANG_WARN_INFINITE_RECURSION = YES;
+                CLANG_WARN_INT_CONVERSION = YES;
+                CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+                CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+                CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+                CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+                CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+                CLANG_WARN_STRICT_PROTOTYPES = YES;
+                CLANG_WARN_SUSPICIOUS_MOVE = YES;
+                CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+                CLANG_WARN_UNREACHABLE_CODE = YES;
+                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+                COPY_PHASE_STRIP = NO;
+                DEBUG_INFORMATION_FORMAT = dwarf;
+                ENABLE_STRICT_OBJC_MSGSEND = YES;
+                ENABLE_TESTABILITY = YES;
+                GCC_C_LANGUAGE_STANDARD = gnu17;
+                GCC_DYNAMIC_NO_PIC = NO;
+                GCC_NO_COMMON_BLOCKS = YES;
+                GCC_OPTIMIZATION_LEVEL = 0;
+                GCC_PREPROCESSOR_DEFINITIONS = (
+                    "DEBUG=1",
+                    "$(inherited)",
+                );
+                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+                GCC_WARN_UNDECLARED_SELECTOR = YES;
+                GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+                GCC_WARN_UNUSED_FUNCTION = YES;
+                GCC_WARN_UNUSED_VARIABLE = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+                LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+                MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+                MTL_FAST_MATH = YES;
+                ONLY_ACTIVE_ARCH = YES;
+                SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+                SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+            };
+            name = Debug;
+        };
+        A1E2D1EF2D5645388DAC31B9 /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+                CLANG_ANALYZER_NONNULL = YES;
+                CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+                CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+                CLANG_ENABLE_MODULES = YES;
+                CLANG_ENABLE_OBJC_ARC = YES;
+                CLANG_ENABLE_OBJC_WEAK = YES;
+                CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+                CLANG_WARN_BOOL_CONVERSION = YES;
+                CLANG_WARN_COMMA = YES;
+                CLANG_WARN_CONSTANT_CONVERSION = YES;
+                CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+                CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+                CLANG_WARN_EMPTY_BODY = YES;
+                CLANG_WARN_ENUM_CONVERSION = YES;
+                CLANG_WARN_INFINITE_RECURSION = YES;
+                CLANG_WARN_INT_CONVERSION = YES;
+                CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+                CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+                CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+                CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+                CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+                CLANG_WARN_STRICT_PROTOTYPES = YES;
+                CLANG_WARN_SUSPICIOUS_MOVE = YES;
+                CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+                CLANG_WARN_UNREACHABLE_CODE = YES;
+                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+                COPY_PHASE_STRIP = NO;
+                DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+                ENABLE_NS_ASSERTIONS = NO;
+                ENABLE_STRICT_OBJC_MSGSEND = YES;
+                GCC_C_LANGUAGE_STANDARD = gnu17;
+                GCC_NO_COMMON_BLOCKS = YES;
+                GCC_PREPROCESSOR_DEFINITIONS = "";
+                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+                GCC_WARN_UNDECLARED_SELECTOR = YES;
+                GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+                GCC_WARN_UNUSED_FUNCTION = YES;
+                GCC_WARN_UNUSED_VARIABLE = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+                LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+                MTL_ENABLE_DEBUG_INFO = NO;
+                MTL_FAST_MATH = YES;
+                SWIFT_COMPILATION_MODE = wholemodule;
+            };
+            name = Release;
+        };
+        882E4EDD075B4AB8B75C2B04 /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+                ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 1;
+                GENERATE_INFOPLIST_FILE = YES;
+                INFOPLIST_FILE = Kiptrade/Info.plist;
+                INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+                INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+                INFOPLIST_KEY_UILaunchStoryboardName = "";
+                IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+                LD_RUNPATH_SEARCH_PATHS = (
+                    "$(inherited)",
+                    "@executable_path/Frameworks",
+                );
+                MARKETING_VERSION = 0.1.0;
+                PRODUCT_BUNDLE_IDENTIFIER = net.kiptrade.app;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SWIFT_EMIT_LOC_STRINGS = YES;
+                SWIFT_VERSION = 5.0;
+                TARGETED_DEVICE_FAMILY = "1,2";
+            };
+            name = Debug;
+        };
+        6FF9CF18065244959AA87C2A /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+                ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 1;
+                GENERATE_INFOPLIST_FILE = YES;
+                INFOPLIST_FILE = Kiptrade/Info.plist;
+                INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+                INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+                INFOPLIST_KEY_UILaunchStoryboardName = "";
+                IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+                LD_RUNPATH_SEARCH_PATHS = (
+                    "$(inherited)",
+                    "@executable_path/Frameworks",
+                );
+                MARKETING_VERSION = 0.1.0;
+                PRODUCT_BUNDLE_IDENTIFIER = net.kiptrade.app;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SWIFT_EMIT_LOC_STRINGS = YES;
+                SWIFT_VERSION = 5.0;
+                TARGETED_DEVICE_FAMILY = "1,2";
+            };
+            name = Release;
+        };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+        DD3867F7B3074F8BBB220611 /* Build configuration list for PBXProject "Kiptrade" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                3A28E2A1A38C4D8989C3D2A7 /* Debug */,
+                A1E2D1EF2D5645388DAC31B9 /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        95B62ED060784736A4240123 /* Build configuration list for PBXNativeTarget "Kiptrade" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                882E4EDD075B4AB8B75C2B04 /* Debug */,
+                6FF9CF18065244959AA87C2A /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+/* End XCConfigurationList section */
+    };
+    rootObject = DDF3E0DA5D314302B175020E /* Project object */;
+}
